@@ -5,6 +5,8 @@ class Produto {
     private $nome;
     private $preco;
     private $estoque;
+    private $cargo;
+    private $salario;
 
     public function exibirProduto() {
         echo $this->nome;
