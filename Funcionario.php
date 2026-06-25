@@ -5,5 +5,9 @@ class Funcionario {
     private $matricula;
     private $cargo;
     private $salario;
+
+    public function trabalhar() {
+        echo "Funcionário trabalhando.";
+    }
 }
 ?>
